@@ -1,0 +1,1 @@
+# browse-no-more-gExtension
