@@ -1,0 +1,86 @@
+section{
+    margin-bottom: 40px;
+}
+
+div .urlList{
+
+}
+
+i.material-icons{
+    size: 17px;
+    cursor: default;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.7s;
+    transition-property: transform;
+}
+
+i.material-icons:hover{
+    transform: scale(1.1)
+}
+
+
+input {
+    border: grey solid 1px;
+    width: 50%;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+span{
+    margin-left: 10px;
+}
+
+.centering{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.content>*{
+    margin: auto 0
+}
+
+.inputTitle{
+    font-size: 17px;
+}
+
+.margin-bottom{
+    margin-bottom: 10px
+}
+
+.ui.container{
+    margin-bottom: 20px  !important;
+}
+
+.ui.container.outer{
+    width: 90%;
+    margin: 40px 50px;
+}
+
+.ui.button{
+    size: 17px;
+    width: 100px;
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.segment{
+    margin-top: 25px;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.segment::-webkit-scrollbar-track{
+    border-radius: 5px;
+}

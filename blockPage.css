@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.message{
+    margin: 100px 200px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    line-height: 3rem;
+}
+
+.ui.button{
+    width: 95px;
+    height: 45px;
+    margin: 10 100;;
+}
+
+#timer{
+    margin-right: 30px;
+    padding: 10px 5px;
+    font-size: 50px;
+    color:  rgb(132, 176, 212); 
+    margin-bottom: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+

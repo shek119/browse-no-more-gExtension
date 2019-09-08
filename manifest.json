@@ -1,0 +1,28 @@
+{
+    "name": "Browse No More",
+    "version": "1.0",
+    "description": "Tools to remind you not to browse the specific website",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Browse No More"
+    },
+    "icons": {
+        "128": "resources/icon1.png"
+    },
+    "permissions":[
+        "storage",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>",
+        "webNavigation"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": true
+    }
+}

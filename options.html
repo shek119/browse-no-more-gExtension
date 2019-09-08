@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="./options.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Customizing Browse No More</title>
+</head>
+
+<body>
+    <div class="ui container outer">
+        <section id="urls">
+            <div class="title">
+                <h3>URLS</h3>
+            </div>
+            <div class="centering">
+                <div class="inputTitle">URL: </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="url" name="url" placeholder="e.g. http://www.google.com">
+                &nbsp;&nbsp;
+                <i class="material-icons" id="add"> add </i>
+            </div>
+            <div class="segment">
+                <div id="urlList"></div>
+            </div>
+        </section>
+        <hr>
+        <div id="words">
+            <div class="title">
+                <h3 class="inputTitle">Custom Message</h3>
+            </div>
+            <div class="centering">
+                <input type="text" name='message' id="message" >
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="ui button" id="saveBt" >Save</button>
+            </div>
+        </div>
+        <hr>
+        <section id="duration">
+            <div class="title">
+                <h3>Waiting Time</h3>
+            </div>
+            <div class="inputTitle">Time: </div>
+            <select>
+            </select>
+        </section>
+    </div>
+    <script src="./options.js"></script>
+</body>
+</html>
